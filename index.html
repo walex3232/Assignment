@@ -4,50 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>links & images</title>
 </head>
 <body>
-    <h1>Homepage</h1>
-    <a href="https://theuselessweb.com">click me</a>
-    <hr>
-    <a href="./pages/about.html">About</a>
+    <div id="main-wrapper">
+        <header>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#"><img src="./images/logo.jpg" alt="logo" width="70" height="45"><h1>Frontend Developer</h1></a></li>
+                    <li class="nav-item"><a href="https://walex3232.github.io/HTML5-landing-page/"><h2>Skill</h2></a></li>
+                    <li class="nav-item"><a href="https://walex3232.github.io/My-calculator/"><h3>Experience</h3></a></li>
+                    <li class="nav-item"><a href="https://walex3232.github.io/HTML-website/"><h4>Growth</h4></a></li>
+                </ul>
+            </nav>
+            <nav class="primary">
+                <div class="walex">
+                    <h1>Welcome to my website</h1>
+                    <p>I am building this website so that i can be good and i believe it's just a matter of time, i will be good at this.</p>
+                    <a href="https://codedamn.com/dashboard"><button class="btn-primary">Read More</button></a>
+                </div>
+                <aside class="sidebar">
+                    <div>
+                        <img src="./images/five-img.jpg" alt="placeholder" width="400" height="300">
+                    </div>
+                </aside>
+            </nav>
+        </header>
 
-    <ul><strong>Unordered List</strong>
-        <li>coffee</li>
-        <li>Rice</li>
-        <li>beans</li>
-    </ul>
-    <ul>
-        <li>coffee
-            <ol>
-                <li><a href="https://www.gamesradar.com/10-great-games-can-be-played-while-drinking-tea/"><img src="images/second-img.jpg" width="100px" height="50px"></a></li>
-                <li><a href="https://www.gamesradar.com/10-great-games-can-be-played-while-drinking-tea/"><img src="images/third-img.jpg" width="100px" height="50px"></a></li>
-            </ol>
-        </li>
-        <li>Rice
-            <ol>
-                <li><a href="https://www.chhs.colostate.edu/krnc/monthly-blog/is-rice-good-for-you/#:~:text=Rice%20is%20a%20rich%20source,%2C%20magnesium%2C%20and%20B%20vitamins.">Is rice nutritious</a></li>
-                <li><a href="https://www.healthline.com/nutrition/rice-and-weight">Is rice high in calories</a></li>
-            </ol>
-        </li>
-    </ul>
-    <ol><strong>Ordered List</strong>
-        <li>Assignment</li>
-        <li>Reading</li>
-        <li>Cooking</li>
-    </ol>
-    <ol>
-        <li>Reading
-            <ul>
-                <li><a href="https://www.coffeedetective.com/coffee-and-readingperfect-companions.html#:~:text=One%20could%20argue%20the%20caffeine,near%20silence%20and%20easy%20contemplation.">Coffee</a></li>
-            </ul>
-        </li>
-        <li>Assignment
-            <ul>
-                <li><a href="https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/step-by-step-guide-to-tackling-assignments/">Understanding Assignment Task</a></li>
-            </ul>
-        </li>
-    </ol>
-    <img src="images/first-img.jpg" alt="The Art of Nature" width="1400" height="auto">
+        <section class="showcase">
+            <article class="post">
+                <img class="thumbmail" src="./images/Four-img.jpg" alt="thumbmail" width="400" height="300">
+                <div>
+                    <h1>Welcome</h1>
+                    <p>I am building this website so that i can be good and i believe it's just a matter of time, i will be good at this.</p>
+                    <a href="https://walex3232.github.io/mywebsite3/"><button class="btn-second">Read More</button></a>
+                </div>
+            </article>
+            <br>
+            <article class="post">
+                <img class="thumbmail" src="./images/second-img.jpg" alt="thumbmail" width="400" height="300">
+                <div>
+                    <h1>My Profile</h1>
+                    <p>My name is <strong>Olawale Olafisoye</strong>, i am from Nigeria and i love to code. It has not been easy for me though but i keep on persisting and hoping i can become a good developer. </p>
+                    <a href="#"><button class="btn-second">Read More</button></a>
+                </div>
+            </article>
+        </section>
+
+        <footer id="main-footer">
+            <p>Copyright &copy; 2022 Olawale Olafisoye</p>
+        </footer>
+    </div>
+
+
 </body>
 </html>
