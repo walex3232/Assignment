@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: 100%;
 }
 
 .walex h1 {
@@ -73,6 +74,7 @@ body {
     padding: 0.5rem 1rem;
     cursor: pointer;
     transition: all 200ms ease-in;
+    width: 100%;
 }
 
 .btn-primary:hover {
@@ -157,7 +159,7 @@ body {
 	}
 
 	#sidebar{
-		width: 100%;
+        width: 100%;
 		float: none;
 	}
 }
